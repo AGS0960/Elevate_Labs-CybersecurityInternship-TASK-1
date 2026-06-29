@@ -1,0 +1,31 @@
+nmap -sS 192.168.31.0/24
+
+Starting Nmap 7.98 (https://nmap.org) at 2026-06-29 20:18 +0530
+
+Nmap scan report for jiofiber.local.html (192.168.31.1)
+Host is up (0.011s latency).
+Not shown: 994 closed tcp ports (reset)
+
+PORT STATE SERVICE
+53/tcp open domain
+80/tcp open http
+443/tcp open https
+7443/tcp open oracleas-https
+8080/tcp open http-proxy
+8443/tcp open https-alt
+
+MAC Address: 7C:BF:77:05:A1:F7 (Speedtech)
+
+Nmap scan report for 192.168.31.141
+Host is up (0.00098s latency).
+All 1000 scanned ports on 192.168.31.141 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+MAC Address: 3C:A0:67:DC:70:1F (Liteon Technology)
+
+Nmap scan report for Adesh-s-S26.lan (192.168.31.179)
+Host is up (0.0055s latency).
+All 1000 scanned ports on Adesh-s-S26.lan (192.168.31.179) are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+
+MAC Address: 62:2D:06:16:DF:D0 (Unknown)
